@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toy Haven - toys, collectibles, board games and diecast cars.">
+    <meta name="theme-color" content="#ff7a00">
+    <title>Checkout | Toy Haven</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="checkout">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">TH</span>
+                <span>
+                    <strong>Toy Haven</strong>
+                    <small>Your place for toys, collectibles, board games and diecast cars.</small>
+                </span>
+            </a>
+            <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+            <nav class="customer-nav" id="customer-nav" aria-label="Customer navigation">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart <span class="nav-count" id="cart-count">0</span></a>
+                <a href="checkout.html">Checkout</a>
+                <a href="wishlist.html">Wishlist <span class="nav-count" id="wishlist-count">0</span></a>
+                <a href="feedback.html">Support</a>
+            </nav>
+        </div>
+    </header>
+<main>
+    <section class="page-banner">
+        <p class="eyebrow">CHECKOUT</p>
+        <h1>Complete Your Order</h1>
+        <p>Enter your details and choose a payment method.</p>
+    </section>
+
+    <section class="page-section checkout-layout">
+        <form class="form-card" id="checkout-form">
+            <h2>Customer Details</h2>
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" placeholder="Your full name">
+            <p class="error" id="name-error"></p>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com">
+            <p class="error" id="email-error"></p>
+
+            <label for="address">Delivery Address</label>
+            <textarea id="address" rows="4" placeholder="Your delivery address"></textarea>
+            <p class="error" id="address-error"></p>
+
+            <h3>Payment Method</h3>
+            <label class="radio-label"><input type="radio" name="payment" value="Card" checked> Card</label>
+            <label class="radio-label"><input type="radio" name="payment" value="Cash on Delivery"> Cash on Delivery</label>
+
+            <div id="card-details">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" maxlength="19" placeholder="1234 5678 9012 3456">
+                <p class="error" id="card-error"></p>
+            </div>
+
+            <button class="button" type="submit">Place Order</button>
+            <p id="checkout-message" class="success-message"></p>
+        </form>
+
+        <div class="form-card">
+            <h2>Order Summary</h2>
+            <div id="checkout-summary"></div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <h2>Toy Haven</h2>
+            <p>Collect, play and enjoy your favourite toys.</p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="feedback.html">Support</a>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Get updates about new products.</p>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Your email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="newsletter-message" class="message"></p>
+        </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Toy Haven. All rights reserved.</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

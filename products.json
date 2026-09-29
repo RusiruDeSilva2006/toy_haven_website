@@ -1,0 +1,98 @@
+[
+  {
+    "id": "F001",
+    "name": "Batman Collectible",
+    "category": "Figurines",
+    "price": 25.0,
+    "image": "images/figurine-batman.jpg",
+    "description": "A classic Batman collectible for superhero fans."
+  },
+  {
+    "id": "F002",
+    "name": "Iron Man Collectible",
+    "category": "Figurines",
+    "price": 28.0,
+    "image": "images/figurine-ironman.jpg",
+    "description": "A detailed Iron Man figure for your collection."
+  },
+  {
+    "id": "F003",
+    "name": "Spider-Man Collectible",
+    "category": "Figurines",
+    "price": 24.0,
+    "image": "images/figurine-spiderman.jpg",
+    "description": "A fun Spider-Man figure for collectors."
+  },
+  {
+    "id": "T001",
+    "name": "Hot Wheels Car",
+    "category": "Toys",
+    "price": 8.0,
+    "image": "images/toy-hotwheels.jpg",
+    "description": "A small die-cast style toy car for play."
+  },
+  {
+    "id": "T002",
+    "name": "LEGO Building Set",
+    "category": "Toys",
+    "price": 35.0,
+    "image": "images/toy-lego.jpg",
+    "description": "A creative building set for young builders."
+  },
+  {
+    "id": "T003",
+    "name": "Teddy Bear",
+    "category": "Toys",
+    "price": 18.0,
+    "image": "images/toy-teddy.jpg",
+    "description": "A soft teddy bear that makes a great gift."
+  },
+  {
+    "id": "B001",
+    "name": "Chess Board Game",
+    "category": "Board Games",
+    "price": 20.0,
+    "image": "images/boardgame-chess.jpg",
+    "description": "A classic strategy game for two players."
+  },
+  {
+    "id": "B002",
+    "name": "Monopoly Board Game",
+    "category": "Board Games",
+    "price": 30.0,
+    "image": "images/boardgame-monopoly.jpg",
+    "description": "A popular family board game for game nights."
+  },
+  {
+    "id": "B003",
+    "name": "Scrabble Board Game",
+    "category": "Board Games",
+    "price": 26.0,
+    "image": "images/boardgame-scrbble.jpg",
+    "description": "Build words and challenge your friends."
+  },
+  {
+    "id": "D001",
+    "name": "Ferrari Diecast",
+    "category": "Diecast Cars",
+    "price": 32.0,
+    "image": "images/diecast-ferrari.jpg",
+    "description": "A collectible Ferrari diecast model."
+  },
+  {
+    "id": "D002",
+    "name": "Lamborghini Diecast",
+    "category": "Diecast Cars",
+    "price": 34.0,
+    "image": "images/diecast-lamborghini.jpg",
+    "description": "A stylish Lamborghini model for collectors."
+  },
+  {
+    "id": "D003",
+    "name": "Porsche Diecast",
+    "category": "Diecast Cars",
+    "price": 33.0,
+    "image": "images/diecast-porsche.jpg",
+    "description": "A Porsche diecast model for your shelf."
+  }
+]

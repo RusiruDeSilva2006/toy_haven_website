@@ -1,0 +1,9 @@
+{
+  "name": "Toy Haven",
+  "short_name": "Toy Haven",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fffaf5",
+  "theme_color": "#ff7a00",
+  "description": "Toy Haven collectible toys and games shop"
+}

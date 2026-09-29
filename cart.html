@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toy Haven - toys, collectibles, board games and diecast cars.">
+    <meta name="theme-color" content="#ff7a00">
+    <title>Shopping Cart | Toy Haven</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="cart">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">TH</span>
+                <span>
+                    <strong>Toy Haven</strong>
+                    <small>Your place for toys, collectibles, board games and diecast cars.</small>
+                </span>
+            </a>
+            <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+            <nav class="customer-nav" id="customer-nav" aria-label="Customer navigation">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart <span class="nav-count" id="cart-count">0</span></a>
+                <a href="checkout.html">Checkout</a>
+                <a href="wishlist.html">Wishlist <span class="nav-count" id="wishlist-count">0</span></a>
+                <a href="feedback.html">Support</a>
+            </nav>
+        </div>
+    </header>
+<main>
+    <section class="page-banner">
+        <p class="eyebrow">YOUR SHOPPING CART</p>
+        <h1>Review Your Items</h1>
+        <p>Change quantities or remove products before checkout.</p>
+    </section>
+
+    <section class="page-section">
+        <div id="cart-items"></div>
+        <div class="cart-summary" id="cart-summary">
+            <h2>Order Summary</h2>
+            <p>Subtotal: <span id="cart-subtotal">$0.00</span></p>
+            <p>Shipping: <span id="cart-shipping">$0.00</span></p>
+            <hr>
+            <p class="total-line">Total: <span id="cart-total">$0.00</span></p>
+            <button class="button" id="clear-cart">Clear Cart</button>
+            <a class="button" id="checkout-button" href="checkout.html">Proceed to Checkout</a>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <h2>Toy Haven</h2>
+            <p>Collect, play and enjoy your favourite toys.</p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="feedback.html">Support</a>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Get updates about new products.</p>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Your email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="newsletter-message" class="message"></p>
+        </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Toy Haven. All rights reserved.</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Toy Haven - toys, collectibles, board games and diecast cars.">
+    <meta name="theme-color" content="#ff7a00">
+    <title>Feedback & Support | Toy Haven</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="support">
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">
+                <span class="brand-mark">TH</span>
+                <span>
+                    <strong>Toy Haven</strong>
+                    <small>Your place for toys, collectibles, board games and diecast cars.</small>
+                </span>
+            </a>
+            <button class="menu-button" id="menu-button" aria-label="Open menu">☰</button>
+            <nav class="customer-nav" id="customer-nav" aria-label="Customer navigation">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="cart.html">Cart <span class="nav-count" id="cart-count">0</span></a>
+                <a href="checkout.html">Checkout</a>
+                <a href="wishlist.html">Wishlist <span class="nav-count" id="wishlist-count">0</span></a>
+                <a href="feedback.html">Support</a>
+            </nav>
+        </div>
+    </header>
+<main>
+    <section class="page-banner">
+        <p class="eyebrow">HELP CENTRE</p>
+        <h1>Feedback & Support</h1>
+        <p>Send us a message or check a frequently asked question.</p>
+    </section>
+
+    <section class="page-section support-layout">
+        <form class="form-card" id="feedback-form">
+            <h2>Send Feedback</h2>
+            <label for="feedback-name">Name</label>
+            <input type="text" id="feedback-name" placeholder="Your name">
+            <p class="error" id="feedback-name-error"></p>
+
+            <label for="feedback-email">Email</label>
+            <input type="email" id="feedback-email" placeholder="you@example.com">
+            <p class="error" id="feedback-email-error"></p>
+
+            <label for="feedback-message">Message</label>
+            <textarea id="feedback-message" rows="6" placeholder="Write your message"></textarea>
+            <p class="error" id="feedback-message-error"></p>
+
+            <button class="button" type="submit">Send Feedback</button>
+            <p id="feedback-success" class="success-message"></p>
+        </form>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question">How do I add a product to my cart?</button>
+                <div class="faq-answer">Open the Products page and click Add to Cart.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Will my cart stay after I close the page?</button>
+                <div class="faq-answer">Yes. The website stores the cart in your browser localStorage.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I save products for later?</button>
+                <div class="faq-answer">Yes. Click Add to Wishlist on a product.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is the checkout a real payment?</button>
+                <div class="faq-answer">No. This is a front-end assignment simulation.</div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <h2>Toy Haven</h2>
+            <p>Collect, play and enjoy your favourite toys.</p>
+        </div>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="feedback.html">Support</a>
+        </div>
+        <div>
+            <h3>Newsletter</h3>
+            <p>Get updates about new products.</p>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Your email">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="newsletter-message" class="message"></p>
+        </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 Toy Haven. All rights reserved.</div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
