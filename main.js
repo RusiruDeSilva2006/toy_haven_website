@@ -265,7 +265,7 @@ function setupHomePage() {
             '<div class="hero-slide">' +
             '<div class="hero-slide-text">' +
             '<p class="eyebrow">' + banner.category + '</p>' +
-            '<h1>' + banner.title + '</h1>' +
+            '<h2>' + banner.title + '</h2>' +
             '<p>' + banner.text + '</p>' +
             '<a class="button" href="products.html?category=' + encodeURIComponent(banner.category) + '">Shop Now</a>' +
             '</div>' +
@@ -274,10 +274,10 @@ function setupHomePage() {
             '</div>' +
             '</div>' +
             '<div class="hero-dots">' +
-            '<button class="hero-dot active" id="banner-dot-1">1</button>' +
-            '<button class="hero-dot" id="banner-dot-2">2</button>' +
-            '<button class="hero-dot" id="banner-dot-3">3</button>' +
-            '<button class="hero-dot" id="banner-dot-4">4</button>' +
+            '<button class="hero-dot active" id="banner-dot-1" aria-label="Show banner 1">1</button>' +
+            '<button class="hero-dot" id="banner-dot-2" aria-label="Show banner 2">2</button>' +
+            '<button class="hero-dot" id="banner-dot-3" aria-label="Show banner 3">3</button>' +
+            '<button class="hero-dot" id="banner-dot-4" aria-label="Show banner 4">4</button>' +
             '</div>';
 
         document.getElementById("banner-dot-1").addEventListener("click", function () {
